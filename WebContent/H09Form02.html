@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>H09Form02.html</title>
+</head>
+<body>
+	<h2>form태그의 하위요소가 되는 태그들</h2>
+	
+	<h3>input 계열의 type="text"</h3>
+	
+	<form name="frm1">
+		기본텍스트상자 :
+		<input type="text" name = "n1" value = "성낙현" />
+		<br /><br />
+		disabled속성:
+			<input type="text" name = "n2" size = "40"
+				maxlength="5" value="속성추가"
+				disabled="disabled"
+			 />
+			 
+		maxlength속성 : <br /><br />
+			<input type="text" name="jumin1" size="6" maxlength="6"
+			 /> - 
+			 <input type="password" size="7" maxlength="7"  />
+			 <br /><br />
+		readonly속성:
+			<input type="text" name = "hompage" value="http://" 
+			readonly/>
+		<br /><br />
+		<input type="submit" value="서버로 전송하기" 	/>
+	</form>
+	<br /><br />
+	
+	<h3>input태그의 type속성 보기</h3>
+	
+	text : <input type="text" size="6" />
+	<br /><br />
+	password : <input type="text" size="6" />
+	<br /><br />
+	checkbox : <input type="checkbox" name = "ch" size ="6" />
+	<br /><br />
+	radio : <input type="radio" name = "ra" size="6" />
+	<br /><br />
+	hidden : 화면에 노출되지 않지만 값은 전송됨
+	<input type="hidden" name = "hi" value = "값이 존재하고 전송됨" />
+	
+	
+	
+	
+	
+	
+</body>
+</html>
